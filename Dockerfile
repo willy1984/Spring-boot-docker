@@ -1,4 +1,4 @@
 FROM java:8
 EXPOSE 8080
-ADD /target/Spring-boot-docker.jar Spring-boot-docker.jar
-ENTRYPOINT ["java", "-jar", "Spring-boot-docker.jar"]
+ADD /target/dockerdemo.jar dockerdemo.jar
+ENTRYPOINT ["java", "-jar", "dockerdemo.jar"]

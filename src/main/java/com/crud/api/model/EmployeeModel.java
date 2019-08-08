@@ -1,18 +1,12 @@
 package com.crud.api.model;
 
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import org.hibernate.validator.constraints.Email;
-import org.hibernate.validator.constraints.Length;
-import org.hibernate.validator.constraints.NotEmpty;
- 
 @Entity
 @Table(name="employees")
-public class EmployeeModel {    
+public class EmployeeModel {
 	
 	@Id
 	private int id;
@@ -47,7 +41,4 @@ public class EmployeeModel {
 		this.location = location;
 	}
 
-	
-	
-	
 }

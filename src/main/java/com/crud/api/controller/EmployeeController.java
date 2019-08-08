@@ -13,7 +13,6 @@ import com.crud.api.service.EmployeeService;
 @RestController
 @RequestMapping("/employee")
 public class EmployeeController {
-	
 	@Autowired
 	EmployeeService employeeService;
 	
