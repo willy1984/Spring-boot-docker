@@ -1,4 +1,4 @@
 FROM java:8
 EXPOSE 8080
-ADD /target/CrudSpringTutorial.jar CrudSpringTutorial.jar
-ENTRYPOINT ["java", "-jar", "CrudSpringTutorial.jar"]
+ADD /target/Spring-boot-docker.jar Spring-boot-docker.jar
+ENTRYPOINT ["java", "-jar", "Spring-boot-docker.jar"]
