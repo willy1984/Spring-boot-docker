@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.crud.api</groupId>
-	<artifactId>CrudSpringTutorial</artifactId>
+	<artifactId>Spring-boot-docker</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>CrudSpringTutorial</name>
+	<name>Spring-boot-docker</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -61,7 +61,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>CrudSpringTutorial</finalName>
+		<finalName>Spring-boot-docker</finalName>
 	</build>
 
 </project>
