@@ -11,7 +11,7 @@ import com.crud.api.model.EmployeeModel;
 import com.crud.api.service.EmployeeService;
 
 @RestController
-@RequestMapping("/employee")
+@RequestMapping("/employees")
 public class EmployeeController {
 	@Autowired
 	EmployeeService employeeService;
